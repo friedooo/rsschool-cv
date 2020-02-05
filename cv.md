@@ -94,3 +94,17 @@ function animate({timing, draw, duration}) {
   
 ```
 -------------
+
+## Expirience
+I have no work expirience in web or software development.
+
+-------------
+
+## Education
+
+* Bachelor – Donetsk National Technical University (2013–2017)
+* Specialty – Program control systems and mechatronics
+* Master – Donetsk National Technical University (2017-2019)
+* Specialty – Microprocessor control systems of renewables
+
+-------------
