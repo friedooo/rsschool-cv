@@ -1,2 +1,1 @@
-# rsschool-cv
-Markdown &amp; Git
+https://friedooo.github.io/rsschool-cv/cv
