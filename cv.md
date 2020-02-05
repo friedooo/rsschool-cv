@@ -108,3 +108,8 @@ I have no work expirience in web or software development.
 * Specialty – Microprocessor control systems of renewables
 
 -------------
+
+## English level
+
+B2 (Cambridge Assessment First Certificate in English (FCE) 14 DECEMBER
+2019 Kyiv).
