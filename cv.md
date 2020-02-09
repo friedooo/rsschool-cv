@@ -105,7 +105,7 @@ I have no work expirience in web or software development.
 * Bachelor – Donetsk National Technical University (2013–2017)
 * Specialty – Program control systems and mechatronics
 * Master – Donetsk National Technical University (2017-2019)
-* Specialty – Microprocessor control systems of renewables
+* Specialty – Microprocessor control systems of renewables energy sources
 
 -------------
 
