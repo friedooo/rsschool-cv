@@ -1,0 +1,133 @@
+body {
+    font-family: "Lucida Sans Unicode", "Lucida Grande","Arial Black","Arial Bold", sans-serif;
+}
+
+
+header {
+    display:flex;
+    align-items: center;
+    position: fixed;
+    left:50%;
+    margin-left:-512px;
+    height: 6%;
+    width: 1024px;
+    z-index: 100;
+    background-color:rgb(173, 175, 194);
+    border-radius: 10%;
+    opacity: 0.7; 
+}  
+
+
+header:hover{
+    opacity: 1;
+    border: 1px solid black;
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+.header-menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+    width: 1024px;
+}
+
+ul { 
+    padding-right: 40px; 
+}
+
+.header-menu li {
+    list-style-type: none;
+    font-weight: bold;
+    font-style: italic;
+    font-size: 100%;
+    color: black;
+    ;
+    padding: 5px;
+}
+
+.header-menu li:hover{
+    border-radius: 20%;
+    background-color: rgb(241, 241, 247);
+}
+
+
+li{
+    list-style-type: none;
+}
+main {
+    text-align: center;
+    position: relative;
+    max-width: 1024px;
+    margin: auto;
+    padding-top: 4%;
+}
+
+h1 {
+    display: block;
+    font-size: 2em;
+    margin-block-start: 0.67em;
+    margin-block-end: 0.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+
+h2 {
+    display: block;
+    font-size: 1.5em;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+
+
+.icon {
+    position: relative;
+    border-radius: 45px;
+}
+
+
+ul {
+    display: block;
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+}
+
+
+#contacts, #summary, #skills, #examples,
+ #expirience, #education, #english {
+	position: relative; /* важно - для того, чтобы псевдоэлемент позиционировался относительно этого элемента */
+	border-top: 55px solid transparent;
+	margin-top: -55px;
+	-moz-background-clip: padding;
+	-webkit-background-clip: padding-box;
+	background-clip: padding-box;
+}
+#contacts:before, #summary:before, #skills:before, #examples:before,
+#expirience:before, #education:before, #english:before {
+	content: "";
+	position: absolute;
+	top: -2px; /* равен по модулю толщине border */
+	left: 0;
+	right: 0;
+	border-top: 2px solid white; /* собственно то, ради чего всё затевалось */
+}
